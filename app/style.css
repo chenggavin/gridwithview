@@ -1,39 +1,103 @@
 [v-cloak] {
-	/*display: none;*/
+  display: none;
 }
 
 * {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
-	text-align: center;
+  text-align: center;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
+		/* Menu Bar */
 .bar {
-	background-color: #5c9bb7;
-	width: 580px;
-	padding: 10px;
-	margin: 45px auto 25px;
-	position: relative;
-	text-align: right;
-
-	
+  background-color: #5c9bb7;
+  width: 580px;
+  padding: 10px;
+  margin: 45px auto 25px;
+  position: relative;
+  text-align: right;
 }
 
 .bar a {
-	display: inline-block;
-	margin-top: 3px;
-	margin-left: 10px;
-	margin-right: 5px;
-	text-decoration: none;
+  color: #ccc;
+  display: inline-block;
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-right: 5px;
+  text-decoration: none;
 }
 
 .bar a.active {
-	color: #c14694;
+  color: #c14694;
 }
+
+
+
+/* Grid view */
+
+ul.grid {
+	list-style: none;
+	columns: 2;
+	width: 570px;
+	margin: 0 auto;
+}
+
+ul.grid li img {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+
+}
+
+/*   list view*/
+
+ul.list {
+	list-style: none;
+	margin: 0 auto;
+	text-align: left;
+	width: 500px;
+}
+
+ul.list li {
+	overflow: hidden;
+	padding: 10px;
+}
+
+ul.list li p {
+	margin-left: 135px;
+	display: block;
+}
+
+ul.list li img {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
